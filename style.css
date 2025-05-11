@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.hero {
+  background: url("./images/diego-gutierrez-NRn5rrBnH8w-unsplash\ 1.png") center/cover no-repeat;
+  color: #ffffff;
+  text-align: center;
+  padding: 350px 30px;
+  position: relative;
+}
+
+.hero .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #ffffff;
+}
+
+.hero .navbar .logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.hero .navbar .nav-items a {
+  color: #ffffff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero .btn-primary {
+  background-color: rgba(221, 34, 66, 1);
+  width: Fixed (271.14px);
+  height: Fixed (82px);
+  border: none;
+  padding: 12px 24px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.intro-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.intro-cards .card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro-cards .card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.intro-cards .card .btn-secondary {
+  margin-top: 10px;
+  background-color: rgba(221, 34, 66, 1);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.secrets {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.secrets .slider {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.secrets .slider img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.landscape {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.landscape img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.landscape .btn-secondary {
+  margin-top: 10px;
+  background-color: rgba(221, 34, 66, 1);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.stats {
+  background-color: #0d1b2a;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.stats .stat-box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.stats .stat-box div {
+  max-width: 200px;
+}
+
+.lifestyle {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.lifestyle img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.gallery {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.gallery .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gallery .gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.getting-there {
+  padding: 40px 20px;
+}
+
+.getting-there ol {
+  padding-left: 20px;
+}
+
+.getting-there .btn-primary {
+  margin-top: 20px;
+  background-color: rgba(221, 34, 66, 1);
+  border: none;
+  padding: 12px 24px;
+  color: #ffffff;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #0d1b2a;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .footer-links a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+}

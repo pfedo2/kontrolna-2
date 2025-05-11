@@ -1,0 +1,198 @@
+$primary-color: rgba(221, 34, 66, 1);
+$secondary-color: #ffffff;
+$dark-bg: #0d1b2a;
+$light-bg: #f5f5f5;
+$text-color: #333;
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: $light-bg;
+  color: $text-color;
+}
+
+.hero {
+  background: url("./images/diego-gutierrez-NRn5rrBnH8w-unsplash\ 1.png")
+    center/cover no-repeat;
+  color: $secondary-color;
+  text-align: center;
+  padding: 100px 20px;
+  position: relative;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: $secondary-color;
+
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .nav-items a {
+      color: $secondary-color;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+  }
+
+  .btn-primary {
+    background-color: $primary-color;
+    border: none;
+    padding: 12px 24px;
+    color: $secondary-color;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+}
+
+.intro-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+
+  .card {
+    background-color: $secondary-color;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .btn-secondary {
+      margin-top: 10px;
+      background-color: $primary-color;
+      color: $secondary-color;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+.secrets {
+  text-align: center;
+  padding: 40px 20px;
+
+  .slider {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    overflow-x: auto;
+
+    img {
+      width: 200px;
+      border-radius: 10px;
+    }
+  }
+}
+
+.landscape {
+  text-align: center;
+  padding: 40px 20px;
+
+  img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+  }
+
+  .btn-secondary {
+    margin-top: 10px;
+    background-color: $primary-color;
+    color: $secondary-color;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+}
+
+.stats {
+  background-color: $dark-bg;
+  color: $secondary-color;
+  text-align: center;
+  padding: 40px 20px;
+
+  .stat-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+    div {
+      max-width: 200px;
+    }
+  }
+}
+
+.lifestyle {
+  text-align: center;
+  padding: 40px 20px;
+
+  img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+}
+
+.gallery {
+  text-align: center;
+  padding: 40px 20px;
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+}
+
+.getting-there {
+  padding: 40px 20px;
+
+  ol {
+    padding-left: 20px;
+  }
+
+  .btn-primary {
+    margin-top: 20px;
+    background-color: $primary-color;
+    border: none;
+    padding: 12px 24px;
+    color: $secondary-color;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+}
+
+footer {
+  background-color: $dark-bg;
+  color: $secondary-color;
+  text-align: center;
+  padding: 20px;
+
+  .footer-links a {
+    color: $secondary-color;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+}
