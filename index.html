@@ -5,118 +5,171 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Explore Indonesia</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="hero">
-      <div class="navbar">
-        <div class="logo">Explore Indonesia</div>
-        <div class="nav-items">
-          <a href="#">Destinations</a>
-          <a href="#">Experiences</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">Explore<br /><span>Indonesia</span></div>
+        <ul class="nav-links">
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Experiences</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+        <div class="icons">
+          <svg
+            width="20"
+            height="20"
+            fill="none"
+            stroke="white"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon icon-search"
+            viewBox="0 0 24 24"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+          <span class="icon">&#9776;</span>
         </div>
+      </nav>
+      <div class="content">
+        <h1>Explore<br />Indonesia</h1>
+        <button>Start travelling</button>
       </div>
-      <div class="hero-content">
-        <h1>Explore Indonesia</h1>
-        <button class="btn-primary">Start traveling</button>
+      <div class="socials">
+        <span>Fb</span>
+        <span>In</span>
+        <span>Tw</span>
+      </div>
+      <div class="side-numbers">
+        <span>01</span>
+      </div>
+      <div class="bottom-section">
+        <div class="card">
+          <span class="number">01</span>
+          <h3>Title here</h3>
+          <p>Lorem ipsum dolor sit amet et amet ist ame.</p>
+        </div>
+        <div class="card">
+          <span class="number">02</span>
+          <h3>Title here</h3>
+          <p>Lorem ipsum dolor sit amet et amet ist ame.</p>
+        </div>
+        <div class="card">
+          <span class="number">03</span>
+          <h3>Title here</h3>
+          <p>Lorem ipsum dolor sit amet et amet ist ame.</p>
+        </div>
+        <div class="video-preview">
+          <img
+            src="./images/hussan-amir-h0DK5BIGBEg-unsplash 2.png"
+            alt="beach"
+          />
+          <div class="play-button">&#9658;</div>
+        </div>
       </div>
     </header>
-
-    <section class="intro-cards">
-      <div class="card">
-        <img src="./images/Walkways.png" alt="Walkways" />
-        <h3>The walkways of Indonesia spellbind</h3>
-        <button class="btn-secondary">Explore</button>
+    <section class="articles-section">
+      <div class="article-block">
+        <div class="image">
+          <img src="./images/Walkways.png" alt="Walkways of Indonesia" />
+        </div>
+        <div class="content">
+          <h2>The walkways of Indonesia spellbind</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            commodo magna et libero mollis rhoncus.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
       </div>
-      <div class="card">
-        <img src="./images/beaches.png" alt="Beach" />
-        <h3>Perfect beaches exude relaxation and fun</h3>
-        <button class="btn-secondary">Learn More</button>
+
+      <div class="article-block reverse">
+        <div class="image">
+          <img src="./images/beaches.png" alt="Perfect beaches" />
+        </div>
+        <div class="content">
+          <h2>Perfect beaches exude relaxation and fun</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce
+            commodo magna et libero mollis rhoncus.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
       </div>
     </section>
-
-    <section class="secrets">
+    <section class="explore">
       <h2>Explore Our Secrets</h2>
-      <div class="slider">
-        <img src="./images/our secrets 1.png" alt="Secret 1" />
-        <img src="./images/our secrets 2.png" alt="Secret 2" />
-        <img src="./images/our secrets 3.png" alt="Secret 3" />
+      <div class="carousel">
+        <button class="arrow">&lt;</button>
+        <div class="images">
+          <img src="./images/our secrets 1.png" alt="Sunset" />
+          <img src="./images/our secrets 2.png" alt="Children" />
+          <img src="./images/our secrets 3.png" alt="Terraces" />
+        </div>
+        <button class="arrow">&gt;</button>
+      </div>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span class="active"></span>
+        <span></span>
+        <span></span>
       </div>
     </section>
 
-    <section class="landscape">
-      <img src="./images/лінія на.png" alt="Indonesian Fields" />
-      <p>Our hills and valleys are like nothing you've seen.</p>
-      <button class="btn-secondary">See More</button>
-    </section>
-
-    <section class="stats">
+    <section class="numbers">
       <h2>By The Numbers</h2>
-      <div class="stat-box">
-        <div>
+      <p class="desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo
+        magna et libero mollis rhoncus. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit.
+      </p>
+      <div class="stats">
+        <div class="stat">
           <h3>100+</h3>
-          <p>UNESCO cultural heritage sites</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            commodo magna et libero.
+          </p>
         </div>
-        <div>
+        <div class="stat">
           <h3>43,000+</h3>
-          <p>Islands to explore</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            commodo.
+          </p>
         </div>
-        <div>
+        <div class="stat">
           <h3>30+</h3>
-          <p>Living local languages in daily use</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            commodo magna et libero.
+          </p>
         </div>
       </div>
     </section>
-
-    <section class="lifestyle">
-      <h2>
-        Live a life like you wouldn't imagine, experience a life you wouldn't
-        expect.
-      </h2>
-      <img src="./images/Video Player.png" alt="Street Life" />
-    </section>
-
-    <section class="gallery">
-      <h2>Photo Gallery</h2>
-      <div class="gallery-grid">
-        <img src="./images/gallery1.png" alt="Photo 1" />
-        <img src="./images/gallery2.png" alt="Photo 2" />
-        <img src="./images/gallery3.png" alt="Photo 3" />
-        <img src="./images/gallery4.png" alt="Photo 4" />
-        <img src="./images/gallery5.png" alt="Photo 5" />
-        <img src="./images/gallery6.png" alt="Photo 6" />
-      </div>
-    </section>
-
-    <section class="getting-there">
-      <h2>Getting there</h2>
-      <ol>
-        <li>
-          <strong>Booking your flights</strong><br />
-          Start with reliable websites and check all deals.
-        </li>
-        <li>
-          <strong>Choosing your hotel</strong><br />
-          Look for eco-hotels and community-driven lodgings.
-        </li>
-        <li>
-          <strong>Planning your experiences</strong><br />
-          Explore local culture, adventure sports, and cuisine.
-        </li>
-      </ol>
-      <button class="btn-primary">Learn More</button>
-    </section>
-
-    <footer>
-      <div class="footer-content">
-        <p>&copy; 2025 Explore Indonesia. All rights reserved.</p>
-        <div class="footer-links">
-          <a href="#">About</a>
-          <a href="#">Privacy</a>
-          <a href="#">Blog</a>
+    <section>
+      <div class="column">
+      <div class="hero">
+      <div class="content"> 
+          <h4>Our hills and valleys are like<br />nothing you’ve seen.</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
+            amet magna commodo, tempus dolor sit amet, laoreet elit. Donec
+            mauris tortor.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+          </div>
         </div>
       </div>
-    </footer>
+      </div>
+    </section>
   </body>
 </html>
